@@ -1,0 +1,51 @@
+Starting >>> ex3_prackage
+Starting >>> examples_rclcpp_async_client
+Starting >>> examples_rclcpp_cbg_executor
+Starting >>> examples_rclcpp_minimal_action_client
+Starting >>> examples_rclcpp_minimal_action_server
+Starting >>> examples_rclcpp_minimal_client
+Starting >>> examples_rclcpp_minimal_composition
+Starting >>> examples_rclcpp_minimal_publisher
+Starting >>> examples_rclcpp_minimal_service
+Starting >>> examples_rclcpp_minimal_subscriber
+Starting >>> examples_rclcpp_minimal_timer
+Starting >>> examples_rclcpp_multithreaded_executor
+Finished <<< examples_rclcpp_minimal_client [0.61s]
+Finished <<< examples_rclcpp_minimal_action_server [0.63s]
+Starting >>> examples_rclcpp_wait_set
+Finished <<< examples_rclcpp_async_client [0.66s]
+Finished <<< examples_rclcpp_cbg_executor [0.67s]
+Finished <<< examples_rclcpp_multithreaded_executor [0.62s]
+Starting >>> examples_rclpy_executors
+Starting >>> examples_rclpy_guard_conditions
+Starting >>> examples_rclpy_minimal_action_client
+Starting >>> examples_rclpy_minimal_action_server
+Finished <<< examples_rclcpp_minimal_action_client [0.71s]
+Finished <<< examples_rclcpp_minimal_service [0.69s]
+Starting >>> examples_rclpy_minimal_client
+Starting >>> examples_rclpy_minimal_publisher
+Finished <<< examples_rclcpp_minimal_timer [1.65s]
+Finished <<< examples_rclcpp_minimal_composition [1.70s]
+Finished <<< examples_rclcpp_minimal_publisher [1.70s]
+Starting >>> examples_rclpy_minimal_service
+Starting >>> examples_rclpy_minimal_subscriber
+Finished <<< ex3_prackage [2.22s]
+Starting >>> examples_rclpy_pointcloud_publisher
+Finished <<< examples_rclcpp_minimal_subscriber [2.19s]
+Starting >>> launch_testing_examples
+Starting >>> my_package
+Finished <<< examples_rclcpp_wait_set [3.02s]
+Finished <<< examples_rclpy_minimal_action_server [3.87s]
+Finished <<< my_package [2.37s]
+Finished <<< examples_rclpy_executors [4.01s]
+Finished <<< examples_rclpy_guard_conditions [4.01s]
+Finished <<< examples_rclpy_minimal_action_client [4.02s]
+Finished <<< examples_rclpy_minimal_client [3.96s]
+Finished <<< examples_rclpy_minimal_publisher [3.97s]
+Finished <<< examples_rclpy_minimal_subscriber [2.67s]
+Finished <<< examples_rclpy_pointcloud_publisher [2.77s]
+Finished <<< examples_rclpy_minimal_service [2.86s]
+Finished <<< launch_testing_examples [2.80s]
+
+Summary: 24 packages finished [5.24s]
+  12 packages had stderr output: ex3_prackage examples_rclpy_executors examples_rclpy_guard_conditions examples_rclpy_minimal_action_client examples_rclpy_minimal_action_server examples_rclpy_minimal_client examples_rclpy_minimal_publisher examples_rclpy_minimal_service examples_rclpy_minimal_subscriber examples_rclpy_pointcloud_publisher launch_testing_examples my_package

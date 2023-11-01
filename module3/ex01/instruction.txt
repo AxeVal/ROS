@@ -2,5 +2,4 @@ colcon build --packages-select service_full_name full_name_srv
 source install/setup.bash
 ros2 run service_full_name service_name 
 
-#new terminal#
 ros2 run service_full_name client_name a b c

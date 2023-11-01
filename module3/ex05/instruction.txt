@@ -1,0 +1,3 @@
+ros2 pkg create mov --build-type ament_python
+colcon build --packages-select mov
+ros2 run mov mov

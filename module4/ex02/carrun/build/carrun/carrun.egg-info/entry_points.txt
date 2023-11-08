@@ -1,0 +1,5 @@
+[console_scripts]
+broadcaster = carrun.broadcaster:main
+carrot = carrun.carrot:main
+listener = carrun.listener:main
+

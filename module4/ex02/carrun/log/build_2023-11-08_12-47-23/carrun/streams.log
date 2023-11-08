@@ -1,0 +1,26 @@
+[0.739s] Invoking command in '/home/axeval/ros2_ws/src/carrun': PYTHONPATH=/home/axeval/ros2_ws/src/carrun/build/carrun/prefix_override:/home/axeval/ros2_ws/src/carrun/install/carrun/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/carrun build --build-base /home/axeval/ros2_ws/src/carrun/build/carrun/build install --record /home/axeval/ros2_ws/src/carrun/build/carrun/install.log --single-version-externally-managed
+[0.948s] running egg_info
+[0.948s] writing build/carrun/carrun.egg-info/PKG-INFO
+[0.949s] writing dependency_links to build/carrun/carrun.egg-info/dependency_links.txt
+[0.949s] writing entry points to build/carrun/carrun.egg-info/entry_points.txt
+[0.949s] writing requirements to build/carrun/carrun.egg-info/requires.txt
+[0.949s] writing top-level names to build/carrun/carrun.egg-info/top_level.txt
+[0.951s] reading manifest file 'build/carrun/carrun.egg-info/SOURCES.txt'
+[0.952s] writing manifest file 'build/carrun/carrun.egg-info/SOURCES.txt'
+[0.952s] running build
+[0.952s] running build_py
+[0.952s] running install
+[0.952s] running install_lib
+[0.953s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.953s]   warnings.warn(
+[0.953s] running install_data
+[0.954s] copying launch/carrun.launch.py -> /home/axeval/ros2_ws/src/carrun/install/carrun/share/carrun/launch
+[0.954s] running install_egg_info
+[0.956s] removing '/home/axeval/ros2_ws/src/carrun/install/carrun/lib/python3.10/site-packages/carrun-0.0.0-py3.10.egg-info' (and everything under it)
+[0.956s] Copying build/carrun/carrun.egg-info to /home/axeval/ros2_ws/src/carrun/install/carrun/lib/python3.10/site-packages/carrun-0.0.0-py3.10.egg-info
+[0.957s] running install_scripts
+[0.978s] Installing broadcaster script to /home/axeval/ros2_ws/src/carrun/install/carrun/lib/carrun
+[0.978s] Installing carrot script to /home/axeval/ros2_ws/src/carrun/install/carrun/lib/carrun
+[0.979s] Installing listener script to /home/axeval/ros2_ws/src/carrun/install/carrun/lib/carrun
+[0.979s] writing list of installed files to '/home/axeval/ros2_ws/src/carrun/build/carrun/install.log'
+[1.029s] Invoked command in '/home/axeval/ros2_ws/src/carrun' returned '0': PYTHONPATH=/home/axeval/ros2_ws/src/carrun/build/carrun/prefix_override:/home/axeval/ros2_ws/src/carrun/install/carrun/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/carrun build --build-base /home/axeval/ros2_ws/src/carrun/build/carrun/build install --record /home/axeval/ros2_ws/src/carrun/build/carrun/install.log --single-version-externally-managed

@@ -1,0 +1,92 @@
+[0.817s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.818s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f39c90b5000>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f39c90b5840>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f39c90b5840>>)
+[0.855s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.856s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.856s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.856s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.856s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.856s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.856s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/axeval/ros2_ws/src/carrun'
+[0.856s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.856s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.856s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.856s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.856s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.856s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.856s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.856s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.856s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.867s] DEBUG:colcon.colcon_core.package_identification:Package '.' with type 'ros.ament_python' and name 'carrun'
+[0.867s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.867s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.867s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.867s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.867s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.942s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.942s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.967s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/axeval/ros2_ws/src/carrun/install
+[0.979s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/axeval/ros2_ws/src/install
+[0.991s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 5 installed packages in /home/axeval/ros2_ws/install
+[1.004s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 272 installed packages in /opt/ros/humble
+[1.005s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.090s] Level 5:colcon.colcon_core.verb:set package 'carrun' build argument 'cmake_args' from command line to 'None'
+[1.090s] Level 5:colcon.colcon_core.verb:set package 'carrun' build argument 'cmake_target' from command line to 'None'
+[1.091s] Level 5:colcon.colcon_core.verb:set package 'carrun' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.091s] Level 5:colcon.colcon_core.verb:set package 'carrun' build argument 'cmake_clean_cache' from command line to 'False'
+[1.091s] Level 5:colcon.colcon_core.verb:set package 'carrun' build argument 'cmake_clean_first' from command line to 'False'
+[1.091s] Level 5:colcon.colcon_core.verb:set package 'carrun' build argument 'cmake_force_configure' from command line to 'False'
+[1.091s] Level 5:colcon.colcon_core.verb:set package 'carrun' build argument 'ament_cmake_args' from command line to 'None'
+[1.091s] Level 5:colcon.colcon_core.verb:set package 'carrun' build argument 'catkin_cmake_args' from command line to 'None'
+[1.091s] Level 5:colcon.colcon_core.verb:set package 'carrun' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.091s] DEBUG:colcon.colcon_core.verb:Building package 'carrun' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/axeval/ros2_ws/src/carrun/build/carrun', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/axeval/ros2_ws/src/carrun/install/carrun', 'merge_install': False, 'path': '/home/axeval/ros2_ws/src/carrun', 'symlink_install': False, 'test_result_base': None}
+[1.102s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.115s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.115s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/axeval/ros2_ws/src/carrun' with build type 'ament_python'
+[1.115s] Level 1:colcon.colcon_core.shell:create_environment_hook('carrun', 'ament_prefix_path')
+[1.128s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.129s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/axeval/ros2_ws/src/carrun/install/carrun/share/carrun/hook/ament_prefix_path.ps1'
+[1.129s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/axeval/ros2_ws/src/carrun/install/carrun/share/carrun/hook/ament_prefix_path.dsv'
+[1.129s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/axeval/ros2_ws/src/carrun/install/carrun/share/carrun/hook/ament_prefix_path.sh'
+[1.142s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.142s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.428s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/axeval/ros2_ws/src/carrun'
+[1.441s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.441s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.792s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/axeval/ros2_ws/src/carrun': PYTHONPATH=/home/axeval/ros2_ws/src/carrun/build/carrun/prefix_override:/home/axeval/ros2_ws/src/carrun/install/carrun/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/carrun build --build-base /home/axeval/ros2_ws/src/carrun/build/carrun/build install --record /home/axeval/ros2_ws/src/carrun/build/carrun/install.log --single-version-externally-managed
+[2.041s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/axeval/ros2_ws/src/carrun' returned '0': PYTHONPATH=/home/axeval/ros2_ws/src/carrun/build/carrun/prefix_override:/home/axeval/ros2_ws/src/carrun/install/carrun/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/carrun build --build-base /home/axeval/ros2_ws/src/carrun/build/carrun/build install --record /home/axeval/ros2_ws/src/carrun/build/carrun/install.log --single-version-externally-managed
+[2.055s] Level 1:colcon.colcon_core.environment:checking '/home/axeval/ros2_ws/src/carrun/install/carrun' for CMake module files
+[2.056s] Level 1:colcon.colcon_core.environment:checking '/home/axeval/ros2_ws/src/carrun/install/carrun' for CMake config files
+[2.057s] Level 1:colcon.colcon_core.environment:checking '/home/axeval/ros2_ws/src/carrun/install/carrun/lib'
+[2.057s] Level 1:colcon.colcon_core.environment:checking '/home/axeval/ros2_ws/src/carrun/install/carrun/bin'
+[2.057s] Level 1:colcon.colcon_core.environment:checking '/home/axeval/ros2_ws/src/carrun/install/carrun/lib/pkgconfig/carrun.pc'
+[2.057s] Level 1:colcon.colcon_core.environment:checking '/home/axeval/ros2_ws/src/carrun/install/carrun/lib/python3.10/site-packages'
+[2.057s] Level 1:colcon.colcon_core.shell:create_environment_hook('carrun', 'pythonpath')
+[2.069s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/axeval/ros2_ws/src/carrun/install/carrun/share/carrun/hook/pythonpath.ps1'
+[2.069s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/axeval/ros2_ws/src/carrun/install/carrun/share/carrun/hook/pythonpath.dsv'
+[2.069s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/axeval/ros2_ws/src/carrun/install/carrun/share/carrun/hook/pythonpath.sh'
+[2.070s] Level 1:colcon.colcon_core.environment:checking '/home/axeval/ros2_ws/src/carrun/install/carrun/bin'
+[2.070s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(carrun)
+[2.082s] INFO:colcon.colcon_core.shell:Creating package script '/home/axeval/ros2_ws/src/carrun/install/carrun/share/carrun/package.ps1'
+[2.083s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/axeval/ros2_ws/src/carrun/install/carrun/share/carrun/package.dsv'
+[2.083s] INFO:colcon.colcon_core.shell:Creating package script '/home/axeval/ros2_ws/src/carrun/install/carrun/share/carrun/package.sh'
+[2.084s] INFO:colcon.colcon_core.shell:Creating package script '/home/axeval/ros2_ws/src/carrun/install/carrun/share/carrun/package.bash'
+[2.084s] INFO:colcon.colcon_core.shell:Creating package script '/home/axeval/ros2_ws/src/carrun/install/carrun/share/carrun/package.zsh'
+[2.085s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/axeval/ros2_ws/src/carrun/install/carrun/share/colcon-core/packages/carrun)
+[2.085s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.085s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.085s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.085s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.116s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.116s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.116s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.127s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.140s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/axeval/ros2_ws/src/carrun/install/local_setup.ps1'
+[2.141s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/axeval/ros2_ws/src/carrun/install/_local_setup_util_ps1.py'
+[2.142s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/axeval/ros2_ws/src/carrun/install/setup.ps1'
+[2.155s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/axeval/ros2_ws/src/carrun/install/local_setup.sh'
+[2.156s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/axeval/ros2_ws/src/carrun/install/_local_setup_util_sh.py'
+[2.157s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/axeval/ros2_ws/src/carrun/install/setup.sh'
+[2.169s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/axeval/ros2_ws/src/carrun/install/local_setup.bash'
+[2.170s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/axeval/ros2_ws/src/carrun/install/setup.bash'
+[2.183s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/axeval/ros2_ws/src/carrun/install/local_setup.zsh'
+[2.183s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/axeval/ros2_ws/src/carrun/install/setup.zsh'

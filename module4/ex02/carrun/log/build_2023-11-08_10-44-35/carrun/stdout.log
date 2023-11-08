@@ -1,0 +1,24 @@
+running egg_info
+writing build/carrun/carrun.egg-info/PKG-INFO
+writing dependency_links to build/carrun/carrun.egg-info/dependency_links.txt
+writing entry points to build/carrun/carrun.egg-info/entry_points.txt
+writing requirements to build/carrun/carrun.egg-info/requires.txt
+writing top-level names to build/carrun/carrun.egg-info/top_level.txt
+reading manifest file 'build/carrun/carrun.egg-info/SOURCES.txt'
+writing manifest file 'build/carrun/carrun.egg-info/SOURCES.txt'
+running build
+running build_py
+copying carrun/carrot.py -> /home/axeval/ros2_ws/src/carrun/build/carrun/build/lib/carrun
+running install
+running install_lib
+copying /home/axeval/ros2_ws/src/carrun/build/carrun/build/lib/carrun/carrot.py -> /home/axeval/ros2_ws/src/carrun/install/carrun/lib/python3.10/site-packages/carrun
+byte-compiling /home/axeval/ros2_ws/src/carrun/install/carrun/lib/python3.10/site-packages/carrun/carrot.py to carrot.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/axeval/ros2_ws/src/carrun/install/carrun/lib/python3.10/site-packages/carrun-0.0.0-py3.10.egg-info' (and everything under it)
+Copying build/carrun/carrun.egg-info to /home/axeval/ros2_ws/src/carrun/install/carrun/lib/python3.10/site-packages/carrun-0.0.0-py3.10.egg-info
+running install_scripts
+Installing broadcaster script to /home/axeval/ros2_ws/src/carrun/install/carrun/lib/carrun
+Installing carrot script to /home/axeval/ros2_ws/src/carrun/install/carrun/lib/carrun
+Installing listener script to /home/axeval/ros2_ws/src/carrun/install/carrun/lib/carrun
+writing list of installed files to '/home/axeval/ros2_ws/src/carrun/build/carrun/install.log'

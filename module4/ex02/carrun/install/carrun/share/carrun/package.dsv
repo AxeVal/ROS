@@ -1,0 +1,6 @@
+source;share/carrun/hook/pythonpath.ps1
+source;share/carrun/hook/pythonpath.dsv
+source;share/carrun/hook/pythonpath.sh
+source;share/carrun/hook/ament_prefix_path.ps1
+source;share/carrun/hook/ament_prefix_path.dsv
+source;share/carrun/hook/ament_prefix_path.sh

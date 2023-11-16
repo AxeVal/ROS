@@ -3,8 +3,8 @@
 <package format="3">
   <name>follower_of_turtle</name>
   <version>0.0.0</version>
-  <description>This package for task ex03 mod 4</description>
-  <maintainer email="v.postnykh@g.nsu.ru">Vasya</maintainer>
+  <description>m4ex03</description>
+  <maintainer email="4xev41ve@g.nsu.ru">axeval</maintainer>
   <license>Apache License 2.0</license>
   
   <exec_depend>geometry_msgs</exec_depend>
